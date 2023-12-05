@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Meet and Eat</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+</style>
+</head>
+<body>
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">Close Menu</a>
+  <a href="#food" onclick="w3_close()" class="w3-bar-item w3-button">Food</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
+  <a href="#vlogs" onclick="w3_close()" class="w3-bar-item w3-button">Vlogs</a>
+  <a href="#mission" onclick="w3_close()" class="w3-bar-item w3-button">Mission</a>
+</nav>
+
+<!-- Top menu -->
+<div class="w3-top">
+  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+    <div class="w3-center w3-padding-16">Meet and Eat</div>
+  </div>
+</div>
+  
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:50px">
+</div>
+<div class="w3-center">
+  <p align="text-center">
+      <h1>Explore Food Gensan</h1>
+    </p>
+  </div>
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+    <div class="w3-quarter">
+      <img class="cafe" src="cafelaguna.jpg" alt="Cafe" style="width:100%">
+      <h2>Cafe Laguna:</h2>
+      <p>Specialty: Coffee, desserts</p>
+        <p>Location:G/F, Veranza Mall, Veranza Dr, Lungsod ng General Santos, 9500 Timog Cotabato..</p>
+        <a href="https://www.facebook.com/CafeLagunaPH/"> Learn more.</a>
+        
+      </div>
+
+      <p align="right">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.1079453725297!2d125.18543757498958!3d6.116168493870453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32f79fb9e60ce13f%3A0xccb1e3a6dd97d248!2sCafe%20Laguna!5e0!3m2!1sen!2sph!4v1701759524538!5m2!1sen!2sph" width="840" height="490" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </p>
+
+    <div class="w3-quarter">
+      <img src="logo.jpg"  style="width:100%">
+      <h2>Bigby's Café & Restaurant </h2>
+      <p>Specialty: Meat, Seafood, Noodles, Salads</p>
+      <p>Location: 458Q+FJV, Ground Floor, Veranza, Veranza Dr, Lungsod ng General Santos, 9500.</p>
+      <a href="https://bigbyscafe.com/event/bigbys-19th-anniversary-buffet-tickets/"> Learn more.</a>
+    </div>
+
+    <p align="right">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.1073227389193!2d125.1844225678208!3d6.116252414243485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32f79fb9c37baa05%3A0x7919e92ef6cf1bce!2sBigby&#39;s%20Caf%C3%A9%20%26%20Restaurant!5e0!3m2!1sen!2sph!4v1701760332949!5m2!1sen!2sph" width="840" height="490" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    
+    </p>
+
+    <div class="w3-quarter">
+      <img src="haya.jpg" style="width:100%">
+      <h2>HAYATTEA Cafe</h2>
+      <p>Specialty: Coffee, desserts, delights </p>
+      <p>Location: 458J+9WR, General Santos City, South Cotabato..</p>
+      <a href="https://www.facebook.com/Hayatteacoffee/"> Learn more.</a>
+    </div>
+    
+    <p align="right">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5610.336472317614!2d125.18025840520474!3d6.116300723278911!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32f79fd674f38825%3A0x6552f31ee38ac0f7!2sHAYATTEA%20Cafe!5e0!3m2!1sen!2sph!4v1701589225790!5m2!1sen!2sph" width="840" height="490" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </p>
+    <div class="w3-quarter">
+      <img src="crab.jpg"  style="width:100%">
+      <h2>Gusteau's Crab Hauz</h2>
+      <p>Specialty: Seafood and Beverage  </p>
+      <p>Location: San Miguel St, General Santos City, 9500 South Cotabato.</p>
+      <a href="https://www.facebook.com/GusteausOfficial/"> Learn more.</a>
+    </div>
+
+  <p align="right">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63473.65267927022!2d125.11530332167972!3d6.1167956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32f79fbb27322743%3A0xb5e29775795e3b1f!2sGusteau&#39;s%20Crab%20Hauz!5e0!3m2!1sen!2sph!4v1701761503797!5m2!1sen!2sph" width="840" height="490" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </p>
+
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <img src="cabin.jpg"  style="width:100%">
+      <h2>The Cabin Brewery</h2>
+      <p>Specialty: Coffee, dessert, </p>
+      <p>Location: Circumferential Road, General Santos City, South Cotabato.</p>
+      <a href="https://www.facebook.com/thecabinbrewery"> Learn more.</a>
+    </div>
+
+    <p align="right">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.2200675310373!2d125.10318137498942!3d6.101037593885369!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32f7995021542b5f%3A0x251e594250baa8bd!2sThe%20Cabin%20Brewery!5e0!3m2!1sen!2sph!4v1701762025853!5m2!1sen!2sph" width="840" height="490" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </p>
+  </div>
+  </div>
+
+  <hr id="mission">
+
+  <div class=" w3-padding-32 w3-center "> 
+    <h1><b>Our Mission!</b></h1>
+    <p>At Meet and Eat, At Food Explore Gensan, our mission is deeply rooted in the celebration of culinary diversity, aiming to unveil the vibrant tapestry of flavors that define the gastronomic landscape of General Santos City. Our dedication extends beyond mere gastronomy; it is a commitment to fostering a profound appreciation for the rich cultural heritage and stories encapsulated within each delectable dish.</p>
+
+    <p><b>Unveiling the Essence of Gensan's Culinary Identity</b></p>
+    <p>General Santos City, known as the "Tuna Capital of the Philippines," boasts a culinary identity that mirrors its dynamic cultural amalgamation. Our mission is to unravel the layers of this unique identity, delving into the intricate relationships between local ingredients, traditional cooking methods, and the innovative twists that shape the contemporary food scene. We aspire to be the compass guiding both residents and visitors through an exploration of flavors that embody the heart and soul of Gensan.</p>
+      
+      <p><b>Meticulous Curation for Culinary Excellence</b></p>
+        <p>Central to our mission is the meticulous curation of recommendations that transcends mere reviews. We believe in elevating culinary exploration to an art form. Our team of passionate food enthusiasts undertakes a comprehensive journey, from street-side vendors to high-end establishments, to ensure that every recommendation encapsulates the essence of Gensan's culinary excellence. By presenting a carefully selected array of dining options, we aim to empower our audience to make informed choices and embark on culinary adventures that resonate with their unique tastes.</p>
+      
+          <p><b> Showcasing the People Behind the Plates</b></p>
+            <p> Beyond the sumptuous flavors, Food Explore Gensan is dedicated to spotlighting the unsung heroes behind the plates—the chefs, artisans, and food entrepreneurs who infuse their passion into every creation. Through in-depth profiles, interviews, and behind-the-scenes glimpses, we strive to humanize the culinary experience, fostering a connection between the audience and the talented individuals who bring Gensan's food culture to life.</p>
+      
+              <p><b>Interactive Exploration for Seamless Discovery</b></p>
+                <p>Our mission extends beyond static recommendations. We believe in fostering an interactive exploration that transcends the traditional bounds of culinary discovery. Through dynamic maps, immersive virtual tours, and engaging multimedia content, we invite our audience to not only read about but also visually experience the culinary wonders that Gensan has to offer. This approach aims to transform meal planning into an exciting journey and democratize access to the diverse food landscape of the city.</p>
+      
+                  <p><b>Building a Community Around Culinary Appreciation</b></p>
+                    <p>Meet and Eat Gensan is not just a platform; it's a community. Our mission includes building a vibrant and inclusive community of food enthusiasts who share a common love for exploration, discovery, and, of course, delicious food. By fostering discussions, organizing events, and leveraging social media, we seek to connect like-minded individuals, creating a space where the joy of culinary appreciation can be shared, celebrated, and perpetuated.</p>
+      
+                      <p>In essence, our mission at Meet and Eat Gensan is a multifaceted endeavor. It's about celebrating the past, present, and future of Gensan's culinary scene, ensuring that every meal becomes a gateway to the city's culture and a memorable chapter in the gastronomic journey of those who embark on it. We invite you to join us in this mission—to explore, savor, and appreciate the diverse flavors that make General Santos City a true food lover's haven.</p>
+      
+      .</p>
+  </div>
+</div>
+<hr>
+
+  <div class=" w3-padding-32 w3-center">  
+    <h1>Tiktok Vlogs</h1><br></div>
+
+  <div class="w3-row-padding w3-padding-16 w3-center" id="vlogs">
+    <div class="w3-center">
+    <h3><b>@vintageguy_</b></h3>
+    <p>Where To Eat In Gensan Featuring @Li Am Dimsum.</p>
+    <blockquote class="tiktok-embed" cite=https://www.tiktok.com/@vintageguy_/video/7303506204045659397 data-video-id="7303506204045659397" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@vintageguy_" href= https://www.tiktok.com/@vintageguy_?refer=embed ></a>  <a title="wheretoeat" target="_blank" href="https://www.tiktok.com/tag/wheretoeat?refer=embed"></a> <a title="wheretoeatingensan" target="_blank" href="https://www.tiktok.com/tag/wheretoeatingensan?refer=embed">#wheretoeatingensan</a> <a title="gensantiktokers" target="_blank" href="https://www.tiktok.com/tag/gensantiktokers?refer=embed">#gensantiktokers</a> <a title="gensanvlog" target="_blank" href="https://www.tiktok.com/tag/gensanvlog?refer=embed">#gensanvlog</a> <a title="eatschristmas" target="_blank" href="https://www.tiktok.com/tag/eatschristmas?refer=embed">#eatschristmas</a> <a target="_blank" title="♬ original sound  - The Vintage Guy" href="https://www.tiktok.com/music/original-sound-The-Vintage-Guy-7303506453213350662?refer=embed">♬ original sound  - The Vintage Guy</a> </section> </blockquote> <script async src=https://www.tiktok.com/embed.js style="width:100%"></script>
+  </div>
+
+  <div class="w3-center">
+    <h3><b>yenancuna</b></h3>
+				<p class="text-sm mb-0">rate & reco coffee shops in gensan ☕️🍰🌺</p>
+        <p >#gensan #gensancoffeeshop #gsc #fyp General Santos City Coffee Shops 🫶🏻 #gensanfoodreview .</p>
+				<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@yenancuna/video/7231220434182622470" data-video-id="7231220434182622470" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@yenancuna" href="https://www.tiktok.com/@yenancuna?refer=embed">@yenancuna</a> rate &#38; reco coffee shops in gensan ☕️🍰🌺 <a title="gensan" target="_blank" href="https://www.tiktok.com/tag/gensan?refer=embed">#gensan</a> <a title="gensancoffeeshop" target="_blank" href="https://www.tiktok.com/tag/gensancoffeeshop?refer=embed">#gensancoffeeshop</a> <a title="gsc" target="_blank" href="https://www.tiktok.com/tag/gsc?refer=embed">#gsc</a> <a title="fyp" target="_blank" href="https://www.tiktok.com/tag/fyp?refer=embed">#fyp</a> General Santos City Coffee Shops 🫶🏻 <a title="gensanfoodreview" target="_blank" href="https://www.tiktok.com/tag/gensanfoodreview?refer=embed">#gensanfoodreview</a> <a target="_blank" title="♬ For videos! Rejector weakness system - MoppySound" href="https://www.tiktok.com/music/For-videos-Rejector-weakness-system-6817206826518448129?refer=embed">♬ For videos! Rejector weakness system - MoppySound</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+   <div class="w3-center">		
+				<h3<b>megcamago</b></h3>
+				<p class="text-sm mb-0">Kay weekend na, hala mangaon tag lami oi!! Go, spend your weekend with Aikon Cafe ❤️ not spons</p>                   
+        <p>#mustvisitplaces #musttryfood #mustvisitrestaurants #japaneserestaurant #wheretoeatingensan #gensanfoodreview #gensan #aikoncafe #foodvlog .</p>
+				<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@megcamago/video/7284460622564183301" data-video-id="7284460622564183301" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@megcamago" href="https://www.tiktok.com/@megcamago?refer=embed">@megcamago</a> Kay weekend na, hala mangaon tag lami oi!! Go, spend your weekend with Aikon Cafe ❤️  not spons.  <a title="mustvisitplaces" target="_blank" href="https://www.tiktok.com/tag/mustvisitplaces?refer=embed">#mustvisitplaces</a> <a title="musttryfood" target="_blank" href="https://www.tiktok.com/tag/musttryfood?refer=embed">#musttryfood</a> <a title="mustvisitrestaurants" target="_blank" href="https://www.tiktok.com/tag/mustvisitrestaurants?refer=embed">#mustvisitrestaurants</a> <a title="japaneserestaurant" target="_blank" href="https://www.tiktok.com/tag/japaneserestaurant?refer=embed">#japaneserestaurant</a> <a title="wheretoeatingensan" target="_blank" href="https://www.tiktok.com/tag/wheretoeatingensan?refer=embed">#wheretoeatingensan</a> <a title="gensanfoodreview" target="_blank" href="https://www.tiktok.com/tag/gensanfoodreview?refer=embed">#gensanfoodreview</a> <a title="gensan" target="_blank" href="https://www.tiktok.com/tag/gensan?refer=embed">#gensan</a> <a title="aikoncafe" target="_blank" href="https://www.tiktok.com/tag/aikoncafe?refer=embed">#aikoncafe</a> <a title="foodvlog" target="_blank" href="https://www.tiktok.com/tag/foodvlog?refer=embed">#foodvlog</a> <a target="_blank" title="♬ Cafe music, corporate VP, comfortable(1277239) - zukisuzuki" href="https://www.tiktok.com/music/Cafe-music-corporate-VP-comfortable-1277239-7122490222473906177?refer=embed">♬ Cafe music, corporate VP, comfortable(1277239) - zukisuzuki</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+			
+   <div class="w3-center">		
+          <h3><b>glaze.marie</b></h3>
+          <p class="text-sm mb-0">Chef Anica Whisk & Ladle Restaurant, Lagao, General Santos City</p>                   
+          <p>#wheretoeatingensan #gensan #steaktiktok #fyp #foryoupage .</p>
+          <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@glaze.marie/video/7288871131593968902" data-video-id="7288871131593968902" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@glaze.marie" href="https://www.tiktok.com/@glaze.marie?refer=embed">@glaze.marie</a> 📍Chef Anica Whisk &#38; Ladle Restaurant, Lagao, General Santos City <a title="wheretoeatingensan" target="_blank" href="https://www.tiktok.com/tag/wheretoeatingensan?refer=embed">#wheretoeatingensan</a> <a title="gensan" target="_blank" href="https://www.tiktok.com/tag/gensan?refer=embed">#gensan</a> <a title="steaktiktok" target="_blank" href="https://www.tiktok.com/tag/steaktiktok?refer=embed">#steaktiktok</a> <a title="fyp" target="_blank" href="https://www.tiktok.com/tag/fyp?refer=embed">#fyp</a> <a title="foryoupage" target="_blank" href="https://www.tiktok.com/tag/foryoupage?refer=embed">#foryoupage</a> <a target="_blank" title="♬ Cute - Aurel Surya Lie" href="https://www.tiktok.com/music/Cute-7136445672676411393?refer=embed">♬ Cute - Aurel Surya Lie</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+      </section>
+  </div>
+  </div>
+</div>
+
+
+  <hr id="about">
+
+  <!-- About Section -->
+  <div class=" w3-padding-32 w3-center">  
+    <h1>About Gensan Cusine</h1><b>
+    <iframe width="800" height="450" src="https://www.youtube.com/embed/Rkv5IBScXvk?si=N7PzWJFDKo0DTt7I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+   
+    <div class="w3-padding-32">
+      <h2><b>WOW GenSan!</b></h2>
+      <h6><i>GenSan Gastronomy: Where Culinary Delights Meet Cozy Retreats in Every Bite and Sip!</i></h6>
+      <p>Welcome to Food Explore Gensan, your ultimate guide to the vibrant and diverse culinary scene in General Santos City! We are passionate about showcasing the rich gastronomic heritage of this bustling city, known for its unique blend of local flavors and international influences.</p>
+    </div>
+  </div>
+  <hr>
+
+  
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black" id="vlogs">1 </a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="w3-third">
+    <h3>MEMBER</h3>
+    <ul class="w3-ul w3-hoverable">
+      <li class="w3-padding-16">
+        <img src="abi.jpg" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-large">Abigail Tuazon Tubigon</span><br>
+        <span>Group Leader 3 - Zuckerberg</span>
+      </li>
+      <li class="w3-padding-16">
+        <img src="gloria.jpg" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-large">Glotia Quico</span><br>
+        <span>Group Member 3 - Zuckerberg</span>
+      </li> 
+    </ul>
+  </div>
+  
+    <div class="w3-third">
+      <h3>MEMBER</h3>
+      <ul class="w3-ul w3-hoverable">
+        <li class="w3-padding-16">
+          <img src="jjane.jpg" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Jane Borja</span><br>
+          <span>Group Member 3 - Zuckerberg</span>
+        </li>
+        <li class="w3-padding-16">
+          <img src="josie.jpg" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Josie Mae Dela Cruz</span><br>
+          <span>Group Member 3 - Zuckerberg</span>
+        </li> 
+      </ul>
+    </div>
+
+    <div class="w3-third">
+      <h3>MEMBER</h3>
+      <ul class="w3-ul w3-hoverable">
+        <li class="w3-padding-16">
+          <img src="fran.jpg" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Frances Alliah Mirafuente</span><br>
+          <span>Group Member 3 - Zuckerberg</span>
+        </li>
+        <li class="w3-padding-16">
+          <img src="ed.jpg" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Eddie Mamac Engcabo</span><br>
+          <span>Group Member 3 - Zuckerberg</span>
+        </li> 
+      </ul>
+    </div>
+
+    <div class="w3-center">
+        <p align="center">
+        <p>©  2018 Meet and Eat, all rights reserved.</p>
+        <p>Powered by <a href="https://gensantos.gov.ph/" target="_blank">Gensan.gov</a></p>
+        </p>
+      </div>
+  </footer>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
